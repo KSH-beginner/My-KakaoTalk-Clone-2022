@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KSH's Kokoa Talk - Login</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <script
+      src="https://kit.fontawesome.com/47ac434296.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body id="login-body">
+    <nav class="login-nav">
+      <div class="login-nav__column">
+        <i class="fa-solid fa-gear"></i>
+        <span>|</span>
+        <i class="fa-solid fa-window-minimize"></i>
+        <i class="fa-solid fa-x"></i>
+      </div>
+    </nav>
+
+    <main class="login-main">
+      <div class="login-main__kakaotalk-logo">
+        <img
+          src="https://w.namu.la/s/059f8bf3e629d3f2e343fe3f3f10809022d58800962db675d233429660bf98d9ceccd60e23b1324d090c87485833b10c2c4503c93a230003ba67d5fcafa527934521d1c0c5b5ec852385a8bed96358f1763b371e327a599b7f7fbd56ae2bd506"
+        />
+      </div>
+
+      <form class="login-form" action="friend.html" method="get">
+        <div class="login-form__column">
+          <input
+            type="text"
+            placeholder="카카오계정 (이메일 또는 전화번호)"
+            autofocus
+          />
+          <i class="fa-solid fa-caret-down"></i>
+        </div>
+        <div class="login-form__column">
+          <input type="text" placeholder="비밀번호" />
+        </div>
+        <div class="login-form__column">
+          <input type="submit" value="로그인" />
+        </div>
+        <div class="login-form__column">
+          <input type="checkbox" />
+          <span>자동로그인</span>
+          <i class="fa-solid fa-circle-question fa-sm"></i>
+        </div>
+      </form>
+
+      <div class="login-main__inquery-column">
+        <span>카카오계정 찾기</span>
+        <span>|</span>
+        <span>비밀번호 재설정</span>
+      </div>
+    </main>
+
+    <div id="no-mobile">
+      <span>화면이 너무 커요! 줄여주세요 :)</span>
+    </div>
+
+    <div id="no-landscape">
+      <span>가로모드는 지원이 되지 않습니다! :)</span>
+    </div>
+  </body>
+</html>

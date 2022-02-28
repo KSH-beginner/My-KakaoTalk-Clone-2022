@@ -1,0 +1,51 @@
+@import "./reset.css";
+@import "./variables.css";
+
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&display=swap");
+
+/* Components */
+@import "./components/nav-bar.css";
+@import "./components/header.css";
+@import "./components/footer.css";
+@import "./components/media-query.css";
+
+/* Screens */
+@import "./screens/login.css";
+@import "./screens/friend.css";
+@import "./screens/chatting.css";
+@import "./screens/more.css";
+@import "./screens/chat-room.css";
+
+body {
+  font-family: "IBM Plex Sans KR", sans-serif;
+  margin-left: 90px;
+  margin-right: 20px;
+  margin-bottom: 130px;
+}
+
+i {
+  cursor: pointer;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  padding: 20px 60px;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  width: 100%;
+  background-color: #f5f5f5;
+}
+
+.menu-header {
+  margin-left: 0px;
+}
+
+input:focus {
+  outline: none;
+}
+
+#login-body {
+  background-color: #fbe300;
+}
